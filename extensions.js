@@ -11,10 +11,17 @@
     ext.dummy = function() {
     };
 
+    ext.toBinary = function(number) {
+        var result = "";
+        result += 1;
+        return result;
+    };
+
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
             ['', 'Dummy block', 'dummy'],
+            ['r', 'binary', 'toBinary', 1],
         ]
     };
 
