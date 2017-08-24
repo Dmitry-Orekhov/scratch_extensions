@@ -19,6 +19,7 @@
     var descriptor = {
         blocks: [
             ['', 'Dummy block', 'dummy'],
+            ['r', 'binary %n', 'toBinary', 1],
         ]
     };
 
