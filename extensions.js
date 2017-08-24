@@ -8,18 +8,9 @@
         return {status: 2, msg: 'Ready'};
     };
 
-    ext.dummy = function() {
-    };
-
-    ext.toBinary = function(number) {
-        return parseInt(number,10).toString(2);
-    };
-
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-            ['', 'Dummy block', 'dummy'],
-            ['r', 'binary %n', 'toBinary', 1],
         ]
     };
 
