@@ -12,10 +12,7 @@
     };
 
     ext.toBinary = function(number) {
-        var out = "";
-        while(length--)
-          out += (dec >> length ) & 1;    
-        return out; 
+        return parseInt(number,10).toString(2);
     };
 
     // Block and block menu descriptions
