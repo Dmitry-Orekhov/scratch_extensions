@@ -8,9 +8,13 @@
         return {status: 2, msg: 'Ready'};
     };
 
+    ext.dummy = function() {
+    };
+
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
+            ['', 'Dummy block', 'dummy'],
         ]
     };
 
