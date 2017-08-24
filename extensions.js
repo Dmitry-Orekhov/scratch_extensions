@@ -13,7 +13,11 @@
 
     ext.toBinary = function(number) {
         var result = "";
-        result += 1;
+
+        while (number > 2) {
+            result = number % 2 + result;
+            number = number / 2;
+        }
         return result;
     };
 
